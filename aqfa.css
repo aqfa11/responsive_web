@@ -1,0 +1,40 @@
+.bagian-atas {
+    text-align: center;
+}
+.border {
+    width: auto;
+     height: auto;
+     border-top: 20px solid blue;
+     border-bottom: 20px solid blue;
+     border-left: 20px solid blue;
+     border-right: 20px solid blue;
+    }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .border {
+        width: auto;
+         height: auto;
+         border-top: 20px solid red;
+         border-bottom: 20px solid peru;
+         border-left: 20px solid yellow;
+         border-right: 20px solid lime;
+        }
+    }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .border {
+        width: auto;
+         height: auto;
+         border-top: 20px solid greenyellow;
+         border-bottom: 20px solid purple;
+         border-left: 20px solid green;
+         border-right: 20px solid gold;
+        }
+}
